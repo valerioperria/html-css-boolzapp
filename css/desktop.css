@@ -1,0 +1,63 @@
+@media screen and (min-width: 992px) {
+    #body {
+        padding: 2rem 5rem;
+    }
+
+    #container {
+        width: 991px;
+        height: calc(100vh - 4rem);
+    }
+
+    #people {
+        width: 300px;
+    }
+
+    #people .header {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    #people .header .tool {
+        display: flex;
+        width: 120px;
+        height: 80px;
+    }
+
+    #people .main {
+        height: 785px;
+    }
+
+    #people .main .user {
+        width: 100%;
+        display: flex;
+    }
+
+    #people .main .user .info {
+        display: flex;
+        width: 160px;
+    }
+
+    #people .main .user .hour {
+        display: flex;
+        width: 60px;
+    }
+
+    #chat {
+        width: 691px;
+        height: 100%;
+    }
+
+    #chat .header .info {
+        width: 471px;
+    }
+
+    #chat .main {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+
+    #chat .footer .write {
+        width: 531px;
+    }
+}

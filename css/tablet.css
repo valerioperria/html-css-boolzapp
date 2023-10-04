@@ -1,0 +1,85 @@
+@media screen and (min-width: 768px) {
+    #container {
+        width: 540px;
+    }
+
+    #people {
+        display: inline-block;
+        width: 80px;
+        height: 100%;
+        background-color: coral;
+        overflow-y: hidden;
+    }
+
+    #people .main:hover {
+        overflow-y: auto;
+    }
+
+    #people .header,
+    #people .header .img,
+    #people .main .user,
+    #people .main .user .img,
+    #chat .footer .emoticon,
+    #chat .footer .audio {
+        height: 80px;
+        width: 80px;
+    }
+
+    #people .main {
+        height: calc(100vh - 80px);
+    }
+
+    #people .main .user .info,
+    #people .main .user .hour,
+    #people .header .tool {
+        display: none;
+    }
+
+    #chat {
+        width: 460px;
+    }
+
+    #chat .header .info {
+        width: 240px;
+    }
+
+    #chat .header .tool {
+        display: flex;
+        height: 100%;
+        width: 140px;
+    }
+
+    #chat .main .my-message,
+    #chat .main .your-message {
+        width: 60%;
+    }
+
+    #chat .footer {
+        display: flex;
+    }
+
+    #chat .footer .emoticon,
+    #chat .footer .audio {
+        display: flex;
+    }
+
+    #chat .footer .write {
+        width: 300px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

@@ -24,10 +24,6 @@
         height: 80px;
     }
 
-    #people .main {
-        height: 785px;
-    }
-
     #people .main .user {
         width: 100%;
         display: flex;
@@ -35,12 +31,16 @@
 
     #people .main .user .info {
         display: flex;
-        width: 160px;
+        width: 100%;
+        flex-grow: 1;
     }
 
     #people .main .user .hour {
         display: flex;
         width: 60px;
+    }
+    #people .main .user .img, #people .main .user .hour{
+        flex-shrink: 0;
     }
 
     #chat {

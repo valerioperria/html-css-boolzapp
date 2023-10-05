@@ -3,7 +3,6 @@
     margin: 0;
     box-sizing: border-box;
     border: 0.1px solid crimson;
-
 }
 
 #body {
@@ -53,7 +52,7 @@
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-    overflow-y: auto;
+    overflow-y: scroll;
     height: calc(100% - 160px);
 }
 

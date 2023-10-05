@@ -11,8 +11,9 @@
         overflow-y: hidden;
     }
 
-    #people .main:hover {
-        overflow-y: auto;
+    #people .main {
+        overflow-y: scroll;
+        overflow-x: hidden;
     }
 
     #people .header,
@@ -39,14 +40,20 @@
         width: 460px;
     }
 
+    #chat .header .img{
+        flex-shrink: 1;
+    }
+
     #chat .header .info {
-        width: 240px;
+        width: 100%;
+        flex-grow: 1;
     }
 
     #chat .header .tool {
         display: flex;
         height: 100%;
         width: 140px;
+        flex-shrink: 1;
     }
 
     #chat .main .my-message,
@@ -61,10 +68,12 @@
     #chat .footer .emoticon,
     #chat .footer .audio {
         display: flex;
+        flex-shrink: 1;
     }
 
     #chat .footer .write {
-        width: 300px;
+        width: 100%;
+        flex-grow: 1;
     }
 
 

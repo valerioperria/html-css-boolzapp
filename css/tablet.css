@@ -52,8 +52,11 @@
     #chat .header .tool {
         display: flex;
         height: 100%;
-        width: 140px;
+        width: 180px;
         flex-shrink: 1;
+        align-items: center;
+        justify-content: space-between;
+        padding-right: 20px;
     }
 
     #chat .main .my-message,

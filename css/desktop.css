@@ -1,11 +1,7 @@
 @media screen and (min-width: 992px) {
-    #wrapper {
-        padding: 2rem 0 2rem;
-    }
 
     #container {
         width: 991px;
-        height: calc(100vh - 4rem);
     }
 
     #people {
@@ -101,6 +97,7 @@
 
     #people .main {
         height: calc(100vh - 80px - 4rem - 80px - 60px);
+        overflow-y: scroll;
     }
 
     #people .main .user {

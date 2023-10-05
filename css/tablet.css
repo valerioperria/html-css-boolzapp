@@ -5,11 +5,9 @@
 
     #people {
         display: inline-block;
-        width: 82px;
+        width: 81px;
         height: 100%;
-        overflow-y: hidden;
         border-right: 1px solid rgba(0, 0, 0, 0.353);
-        border-left: 1px solid rgba(0, 0, 0, 0.353)
     }
 
     #people .new-message,
@@ -30,9 +28,13 @@
     }
 
     #people .main {
-        height: calc(100vh - 80px);
-        overflow-y: scroll;
+        height: calc(100vh - 80px - 4rem);
+        overflow-y: hidden;
         overflow-x: hidden;
+    }
+
+    #people .main:hover{
+        overflow-y: scroll;
     }
 
     #people .main .user {
@@ -40,7 +42,7 @@
     }
 
     #people .main .user:hover {
-        background-color: rgba(0, 0, 0, 0.205);
+        background-color: rgba(0, 0, 0, 0.103);
     }
 
     #people .main .user .info,

@@ -19,9 +19,7 @@
     #people .header,
     #people .header .img,
     #people .main .user,
-    #people .main .user .img,
-    #chat .footer .emoticon,
-    #chat .footer .audio {
+    #people .main .user .img {
         height: 80px;
         width: 80px;
     }
@@ -52,8 +50,8 @@
     #chat .header .tool {
         display: flex;
         height: 100%;
-        width: 180px;
-        flex-shrink: 1;
+        width: 100px;
+        flex-shrink: 0;
         align-items: center;
         justify-content: space-between;
         padding-right: 20px;
@@ -68,18 +66,24 @@
         display: flex;
     }
 
-    #chat .footer .emoticon,
-    #chat .footer .audio {
-        display: flex;
-        flex-shrink: 1;
-    }
-
     #chat .footer .write {
         width: 100%;
         flex-grow: 1;
     }
 
+    #chat .footer .write input{
+        width: 100%;
+    }
 
+    #chat .footer .emoticon,
+    #chat .footer .audio{
+        display: flex;
+        height: 80px;
+        width: 90px;
+        flex-shrink: 0;
+        align-items: center;
+        justify-content: center;
+    }
 
 
 

@@ -39,7 +39,9 @@
         display: flex;
         width: 60px;
     }
-    #people .main .user .img, #people .main .user .hour{
+
+    #people .main .user .img,
+    #people .main .user .hour {
         flex-shrink: 0;
     }
 

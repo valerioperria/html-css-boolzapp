@@ -5,16 +5,17 @@
 
     #people {
         display: inline-block;
-        width: 80px;
+        width: 82px;
         height: 100%;
-        background-color: coral;
         overflow-y: hidden;
+        border-right: 1px solid rgba(0, 0, 0, 0.353);
+        border-left: 1px solid rgba(0, 0, 0, 0.353)
     }
 
-    #people .main {
+    /* #people .main {
         overflow-y: scroll;
-        overflow-x: hidden;
-    }
+        overflow-x:auto;
+    } */
 
     #people .header,
     #people .header .img,
@@ -24,8 +25,18 @@
         width: 80px;
     }
 
+    #people .header{
+        background-color: rgb(233, 233, 233);
+    }
+
     #people .main {
         height: calc(100vh - 80px);
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+
+    #people .main .user{
+        border-bottom:1px solid rgba(0, 0, 0, 0.353);
     }
 
     #people .main .user .info,
@@ -83,6 +94,7 @@
         flex-shrink: 0;
         align-items: center;
         justify-content: center;
+        color: rgba(0, 0, 0, 0.605);
     }
 
 

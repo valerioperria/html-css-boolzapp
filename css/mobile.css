@@ -41,6 +41,7 @@ input {
     border-style: none;
     border-radius: 8px;
 }
+
 /*  */
 
 /* background */
@@ -61,6 +62,7 @@ input {
     position: absolute;
     bottom: 0%;
 }
+
 /*  */
 
 #wrapper {
@@ -68,6 +70,7 @@ input {
     justify-content: center;
     align-items: center;
 }
+
 #wrapper {
     padding: 2rem 0 2rem;
 }
@@ -168,6 +171,37 @@ input {
     justify-content: space-between;
     padding: 1rem 0 4px 0;
     color: rgba(0, 0, 0, 0.541);
+}
+
+#chat .menu .msg-menu i {
+    position: relative;
+}
+
+#chat .menu .msg-menu i:hover .sub-menu {
+    display: block;
+}
+
+#chat .menu .msg-menu .sub-menu {
+    list-style: none;
+    background-color: white;
+    color: black;
+    font-size: 0.9rem;
+    width: 180px;
+    height: fit-content;
+    position: absolute;
+    right: 0%;
+    display: none;
+}
+
+#chat .menu .msg-menu .sub-menu li {
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#chat .sub-menu li:hover {
+    background-color: rgba(0, 0, 0, 0.189);
 }
 
 #chat .menu .msg-hour {

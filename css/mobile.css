@@ -109,14 +109,6 @@ input {
     padding: 0.5rem;
 }
 
-.info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-left: 1rem;
-    gap: 5px;
-}
-
 #chat .info,
 #chat .footer .write {
     width: 100%;
@@ -124,8 +116,6 @@ input {
     display: flex;
     justify-content: center;
 }
-
-
 
 #chat .main {
     height: 100%;
@@ -201,7 +191,7 @@ input {
 }
 
 #chat .sub-menu li:hover {
-    background-color: rgba(0, 0, 0, 0.189);
+    background-color: rgba(0, 0, 0, 0.103);
 }
 
 #chat .menu .msg-hour {
